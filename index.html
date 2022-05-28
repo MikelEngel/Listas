@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=LISTA DE COMPRAS, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>M1S1 LISTA DE COMPRAS</title>
+</head>
+<body>
+    <table class="tab1">
+        <tr>
+        <th><h1>LISTA DE COMPRAS</h1></th>
+        <th><img src="https://mercadeoglobal.com/blog/wp-content/uploads/2015/01/segmentar-listas.png" alt="lista" style="width: 300px; height: 150px;"></th>
+        </tr>
+    </table>
+
+    <table class="tab2">
+        <tr>
+            <th class="enAc">ACCIONES</th>
+            <th class="enPr">PRIORIDADES</th>
+            <th class="enOp">OPCIONALES</th>
+            <th class="enMe">MÉTODO DE PAGO</th>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>Revisa tu lista de prioridades</li>
+                    <li>Selecciona productos opcionales</li>
+                    <li>Selecciona tu método de pago</li>
+                    <li>Paga y <b>¡LISTO!</b></li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>Leche</li>
+                    <li>Queso</li>
+                    <li>Crema</li>
+                    <li>Huevo</li>
+                    <li>Pan blanco</li>
+                    <li>Cereal</li>
+                    <li>Crema corporal</li>
+                    <li>Jabón para trastes</li>
+                    <li>Jabón para ropa</li>
+                    <li>Jabón para manos</li>
+
+                </ul>
+            </td>
+            <td>
+                <form action="">
+                    <input type="checkbox" id="opprod1" name="producto1" value="refresco">
+                    <label for="opprod1">Refresco</label><br> 
+                    <input type="checkbox" id="opprod2" name="producto2" value="botanas">
+                    <label for="opprod2">Botanas</label><br> 
+                    <input type="checkbox" id="opprod3" name="producto3" value="dulces">
+                    <label for="opprod3">Dulces</label><br> 
+                    <input type="checkbox" id="opprod4" name="producto4" value="Cerveza">
+                    <label for="opprod4">Cerveza</label><br>
+                </form>    
+            </td>
+            <td>
+                <form action="">
+                    <input type="radio" id="TDC" name="pay_metod" value="TDC">
+                    <label for="TDC">TDC</label><br>
+                    <input type="radio" id="Efectivo" name="pay_metod" value="Efectivo">
+                    <label for="Efectivo">Efectivo</label><br>
+                    <input type="radio" id="Deposito" name="pay_metod" value="Deposito">
+                    <label for="Deposito">Déposito bancario</label><br>
+                    <input type="radio" id="Paypal" name="pay_metod" value="Paypal">
+                    <label for="Paypal">Paypal</label><br><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><b>Si esta todo listo, da clic en el botón para pagar</b></p>
+            </td>
+            <td class="botonCyP" colspan="2">
+                <input type="button" onclick="alert('Gracias por la compra')" value="Comprar y pagar">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

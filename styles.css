@@ -1,0 +1,25 @@
+.tab1 {
+    text-align: center;
+    margin: auto;
+    border: rgb(255, 255, 255) 1px solid;
+}
+.tab2 {
+    border-spacing: 30px;
+    text-align: left;
+    margin: auto;
+    border: black 1px solid;
+
+}
+th, td {
+    padding: 15px;
+    
+}
+
+.enAc, .enPr, .enOp, .enMe{
+    text-align: center;
+    background-color: #EDEDED;
+}
+
+p, .botonCyP {
+    text-align: center;
+}
